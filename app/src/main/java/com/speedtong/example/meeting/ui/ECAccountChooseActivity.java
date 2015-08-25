@@ -219,7 +219,7 @@ public class ECAccountChooseActivity extends CCPBaseActivity implements
 				if (account != null) {
 
 					if (!TextUtils.isEmpty(account.getContactid())) {
-						holder.avatar.setImageBitmap(ContactLogic.getPhoto(account.getRemark()));
+                        holder.avatar.setImageBitmap(ContactLogic.getPhoto(account.getRemark()));
 						holder.name.setText(account.getNickname());
 						holder.tv_voip.setText(account.getContactid());
 						holder.checkBox.setChecked(isSelected.get(position));
