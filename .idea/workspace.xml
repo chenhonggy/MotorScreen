@@ -18,10 +18,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.screen.main" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7e044d3-8034-43bf-8547-cd0f31a71245" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b7e044d3-8034-43bf-8547-cd0f31a71245" name="Default" comment="" />
     <ignored path="gradle.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
