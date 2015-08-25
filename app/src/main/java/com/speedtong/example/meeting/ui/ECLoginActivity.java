@@ -89,7 +89,6 @@ public class ECLoginActivity extends CCPBaseActivity implements
 			mAccountEdt.setText(yunAccount);
 			mPasswordEdt.requestFocus();
 		}
-
 	}
 
 	private void initialize(Bundle savedInstanceState) {
@@ -122,6 +121,10 @@ public class ECLoginActivity extends CCPBaseActivity implements
 	@Override
 	protected void onResume() {
 		super.onResume();
+
+        mPostingdialog = new ECProgressDialog(this, R.string.login_posting);
+        mPostingdialog.show();
+        doLoginReuqest("workboring@gmail.com", "test123456");
 	}
 
 	@Override

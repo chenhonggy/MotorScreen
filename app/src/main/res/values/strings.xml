@@ -2,8 +2,8 @@
 
     <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">云通讯会议</string>
-    <string name="app_name_inner">云通讯会议(内部使用)</string>
+    <string name="app_name">视频会议</string>
+    <string name="app_name_inner">视频会议(内部使用)</string>
     <string name="app_login_auto">一键登陆</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -79,16 +79,16 @@
     
     <string name="app_panel_file">文件</string>
     <string name="fmt_time_length">%d\"</string>
-    <string name="login_account_hint">请输入云通讯注册邮箱/手机</string>
+    <string name="login_account_hint">请输入视频注册邮箱/手机</string>
     <string name="login_password_hint">请输入密码</string>
-    <string name="str_no_choice_account">还未选择子账号，请点选</string>
+    <string name="str_no_choice_account">还未选择账号，请点选</string>
     <string name="str_start_ex">开始体验</string>
     <string name="str_start_transfer">确认转接</string>
     <string name="main_sending">正在发送中</string>
-    <string name="tips_regist_1">"登陆<font color="#1DB87F">yuntongxun.com</font>并注册"</string>
+    <string name="tips_regist_1">"登陆<font color="#1DB87F"> </font>并注册"</string>
     <string name="tips_regist_2">填写注册基本资料</string>
     <string name="tips_regist_3">注册成功，获得8元测试体验费</string>
-    <string name="login_yuntongxun">云通讯登录</string>
+    <string name="login_yuntongxun">视频登录</string>
     <string name="login_regist">注册</string>
     <string name="login_login">登 录</string>
     <string name="tips_login_accountpwd_null">帐号或密码不能为空</string>
@@ -173,7 +173,7 @@
     <string name="updated_at">上次更新于%1$s前</string>
     <string name="updated_just_now">刚刚更新</string>
     <string name="time_error">时间有问题</string>
-    <string name="copyright">©Copyright 容联云通讯</string>
+    <string name="copyright">©Copyright 视频</string>
 
     <!-- -add -->
     <string name="net_voip">互联网音视频</string>
@@ -182,17 +182,20 @@
     <string name="main_logout">注销当前账号</string>
     <string name="main_quit_app">退出客户端</string>
     <string name="net_voip_notice_msg">互联网语音是基于网络的通话方式，需对方也使用客户端，通话质量受双方网络环境影响
-体验时，请使用另一终端登录相同账号并选择不同子账户</string>
+体验时，请使用另一终端登录相同账号并选择不同子账户
+</string>
     <string name="net_phone_notice_msg">网络直拨：对本地网络质量有要求，建议使用WIFI/3G网络呼出，对被叫网络没有要求
 
  
 
-网络回拨：通话不依赖网络，成功发起呼叫请求后会先有一个来电，接听后即可呼叫对方</string>
+网络回拨：通话不依赖网络，成功发起呼叫请求后会先有一个来电，接听后即可呼叫对方
+</string>
     <string name="str_tips_wait_invited">正在等待对方接受邀请...</string>
     <string name="add_phone_notice">绑定其他通话测试号码</string>
     <string name="add_notice">由于Demo使用未上线应用，只能拨打测试号，上线应用无限制
 
-测试号最多3个，如需修改请登录云通讯网站操作</string>
+测试号最多3个，如需修改请登录视频网站操作
+</string>
     <string name="vedio_switch">音视频切换</string>
     <string name="str_call_status" formatted="false">延迟时间%d（毫秒）丢包率:%d</string>
     <!-- video -->
@@ -231,7 +234,7 @@
     <string name="voip_calling_refuse">对方拒接，请稍后再试</string>
     <string name="voip_calling_busy">对方正忙，请稍后再拨</string>
     <string name="voip_call_fail_no_cash">呼叫失败，请查询余额</string>
-    <string name="voip_is_talking_tip">云通讯正在通话中, 轻击以继续</string>
+    <string name="voip_is_talking_tip">视频正在通话中, 轻击以继续</string>
 
     <!-- 增加Voip点对点、直拨错误码： -->
     <string name="voip_call_fail_connection_failed_auth">第三方鉴权地址连接失败</string>
@@ -420,7 +423,7 @@
 	<string name="video_publish_video_frame">发布视频</string>
 	<string name="video_unpublish_video_frame">取消发布视频</string>
 	
-	<string name="str_video_desc">"&lt;font color='#FFFFFF' size='16'>能力介绍：&lt;/font>\t&lt;font color='#D9D4D1' size='13'>云通讯视频会议能力提供多路交叉视频以及一对多视频（可手动切换或自动切换到发言方）并支持电话用户语音加入，同时提供丰富的会议管理能力以满足不同的应用场景&lt;/font>
+	<string name="str_video_desc">"&lt;font color='#FFFFFF' size='16'>能力介绍：&lt;/font>\t&lt;font color='#D9D4D1' size='13'>视频视频会议能力提供多路交叉视频以及一对多视频（可手动切换或自动切换到发言方）并支持电话用户语音加入，同时提供丰富的会议管理能力以满足不同的应用场景&lt;/font>
        &lt;br/>&lt;br/>&lt;font color='#CCCCCC' size='13'>Demo演示一对多视频会议，即多方查看一方视频、可手动切换，语音为多方实时参与.&lt;/font>"</string>
     
     <string name="str_create_new_video_conference">暂无房间，请先创建一个</string>

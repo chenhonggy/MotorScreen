@@ -14,14 +14,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    style="@style/NavPage"
     android:orientation="vertical" >
+    <!--style="@style/NavPage"-->
     
     <LinearLayout
         android:id="@+id/view_head"
         android:layout_width="fill_parent"
         android:layout_height="66.5dip"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="gone">
         <Button
             android:id="@+id/switch_login_view"
             android:layout_width="fill_parent"
@@ -53,7 +54,8 @@
         android:layout_below="@id/view_head"
         android:layout_marginRight="12dip"
     	android:layout_marginLeft="12dip"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="gone">
         <include 
             android:id="@+id/experience_login_id"
             layout="@layout/experience_login_layout"/>

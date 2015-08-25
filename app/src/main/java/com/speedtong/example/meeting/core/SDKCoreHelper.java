@@ -12,17 +12,11 @@
  */
 package com.speedtong.example.meeting.core;
 
-import java.io.IOException;
-
-import java.io.InvalidClassException;
-
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 
 import com.speedtong.example.meeting.ECApplication;
 import com.speedtong.example.meeting.common.utils.CCPNotificationManager;
@@ -35,25 +29,21 @@ import com.speedtong.example.meeting.ui.ECLoginActivity;
 import com.speedtong.example.meeting.ui.manager.CCPAppManager;
 import com.speedtong.example.meeting.ui.videomeeting.VideoconferenceBaseActivity;
 import com.speedtong.sdk.ECDevice;
-import com.speedtong.sdk.ECDevice.CallType;
 import com.speedtong.sdk.ECDevice.InitListener;
-import com.speedtong.sdk.ECDevice.Reason;
 import com.speedtong.sdk.ECError;
 import com.speedtong.sdk.ECInitialize;
-import com.speedtong.sdk.ECChatManager;
-import com.speedtong.sdk.ECGroupManager;
-import com.speedtong.sdk.VoipCall;
 import com.speedtong.sdk.core.ECGlobalConstants;
 import com.speedtong.sdk.core.interphone.ECInterphoneInviteMsg;
 import com.speedtong.sdk.core.interphone.ECInterphoneMeetingMsg;
 import com.speedtong.sdk.core.interphone.ECInterphoneOverMsg;
 import com.speedtong.sdk.core.meeting.listener.OnMeetingListener;
-import com.speedtong.sdk.core.model.VoipCallUserInfo;
 import com.speedtong.sdk.core.videomeeting.ECVideoMeetingMsg;
 import com.speedtong.sdk.core.voicemeeting.ECVoiceMeetingMsg;
-import com.speedtong.sdk.core.voip.listener.OnVoipListener;
 import com.speedtong.sdk.debug.ECLog4Util;
 import com.speedtong.sdk.platformtools.SdkErrorCode;
+
+import java.io.IOException;
+import java.io.InvalidClassException;
 
 /**
  * @author 容联•云通讯
@@ -203,7 +193,7 @@ public class SDKCoreHelper implements InitListener,
 		intent.setAction(mContext.getPackageName() + ".inited");
 		mContext.sendBroadcast(intent);
 		postConnectNotify();
-		ToastUtil.showMessage("与云通讯连接成功");
+		ToastUtil.showMessage("连接成功，可以开始操作啦！");
 	}
 
 	@Override
