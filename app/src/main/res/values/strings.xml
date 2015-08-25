@@ -2,7 +2,7 @@
 
     <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">视频会议</string>
+    <string name="app_name">视频demo</string>
     <string name="app_name_inner">视频会议(内部使用)</string>
     <string name="app_login_auto">一键登陆</string>
     <string name="action_settings">Settings</string>
